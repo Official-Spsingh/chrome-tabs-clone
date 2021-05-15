@@ -1,9 +1,10 @@
 import './App.css';
+import TabContainer from './components/TabContainer';
 
 function App() {
   return (
     <div className="App">
-      Test
+      <TabContainer />
     </div>
   );
 }

@@ -1,3 +1,41 @@
 .App {
   text-align: center;
 }
+.tabContainer {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 10px;
+  background: #0b84bb33;
+  height: 42px;
+  align-items: center;
+}
+.tabItem {
+  max-width: 210px;
+  width: 210px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  background: #b8bec1e0;
+  height: 40px;
+  font-size: 12px;
+  align-items: center;
+  border-radius: 10px;
+  color: #fff;
+}
+.addIcon {
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  border: none;
+  background: #c1cfd5;
+  margin: 0 10px;
+}
+.active {
+  background: #9ec3d4;
+  color: #000;
+}
+.removeTabIcon {
+  border: none;
+  background: transparent;
+  font-size: 14px;
+}
